@@ -1,0 +1,69 @@
+.users {
+  width: 90%;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 30px;
+  color: #707070;
+  padding-top: 20px;
+}
+.users-cart {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+}
+.cart-item {
+  width: 327px;
+  height: 126px;
+  box-shadow: 0px 0px 5px 5px #00000030;
+  border-radius: 10px;
+  padding: 10px;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  justify-content: space-between;
+  text-align-last: left;
+  align-items: flex-start;
+}
+.cart-item .item-info {
+  padding-left: 10px;
+  margin-top: -10px;
+}
+.cart-item .item-info h4 {
+  margin-bottom: -5px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.cart-item .item-info h3 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 14px;
+}
+.cart-item .item-info h3 span {
+  color: #71dd37;
+  font-size: 14px;
+  font-weight: 400;
+}
+.cart-item .item-info p {
+  font-size: 14px;
+  margin-top: -12px;
+}
+.cart-item .item-person {
+  margin-top: 10px;
+}
+
+.user-filter {
+  display: grid;
+
+  grid-template-columns: 32% 32% 32%;
+  justify-content: center;
+  margin-top: -14px;
+}
+.filter-title {
+  color: #566a7f;
+  padding: 20px 30px;
+  text-align-last: left;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  height: 10px !important;
+}

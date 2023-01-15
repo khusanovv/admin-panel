@@ -1,0 +1,17 @@
+.user {
+  width: 90%;
+  margin-left: 100px;
+  height: 1000px;
+  box-shadow: 0px 0px 5px 5px #00000030;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.user-filter {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #0000005d;
+}
+.user-data__box {
+  max-width: 96%;
+  margin: 0 auto;
+}
